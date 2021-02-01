@@ -1,0 +1,433 @@
+:root {
+    --main-font: 'sofia-pro', sans-serif;
+    --dark-blue: #01143C;
+    --white: #ffffff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    overflow: hidden;
+    font-family: var(--main-font);
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: var(--white);
+    z-index: 0;
+    padding-top: 1rem;
+}
+
+main>h1 {
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+main>p {
+    width: 85%;
+    text-align: center;
+    padding-bottom: 5rem;
+    margin: 0 auto;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+
+header {
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+}
+
+a.button {
+    color: white;
+    padding: .75rem 1.5rem;
+    margin: 10vw 27vw;
+    border-radius: 2rem;
+    border: solid 1px var(--white);
+    text-align: center;
+    text-decoration: none;
+}
+
+a.button:hover {
+    animation: colorin ease-in forwards 0.3s;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    z-index: 10;
+    height: auto;
+    background-color: var(--dark-blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100vw;
+}
+
+nav>ul {
+    display: none;
+}
+nav>div.burger {
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: auto;
+    cursor: pointer;
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+}
+
+nav>div.burger>div {
+    width: 100%;
+    height: 3px;
+    background-color: var(--white);
+    border-radius: 3px;
+    transition: 1s;
+}
+
+nav>div.contact>ol {
+    display: none;
+}
+
+
+
+.burger_button {
+    margin-top: 10px;
+
+}
+
+
+
+/*NAVIGATION OPENED*/
+
+nav.open {
+    width: 100vw;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: - 2rem;
+    padding-top: 2rem;
+}
+
+nav.open>div.burger {
+    justify-items: flex-end;
+}
+
+nav.open>div.burger>div {
+    background-color: var(--dark-blue);
+    transform: rotate(45deg);
+}
+
+nav.open>div.burger>.burger_button {
+    transform: rotate(-45deg);
+    top: -15px;
+    position: relative;
+}
+
+nav.open>ul {
+    display: block;
+    color: var(--dark-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    animation: opening ease-in forward 0.4s;
+    z-index: 5;
+}
+
+nav.open>ul>li {
+    padding-top: 2rem;
+    width: 100%;
+
+}
+
+nav.open>ul>li>a {
+    width: 100%;
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    border: solid 1px var(--white);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    align-self: center;
+}
+
+nav.open>ul>li>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav.open>ul>li>a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav.open>ul>li.contacttitle {
+    display: none;
+}
+
+nav.open>div.contact {
+    display: block;
+    max-width: 350px;
+    width: 100vw;
+    color: var(--dark-blue)
+}
+
+
+nav.open>div.contact>ol {
+    background-color: white;
+    list-style: none;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 100vw;
+    padding: 6rem 2rem 2rem 2rem;
+    /* border-radius: 0 0 3rem 3rem; */
+    animation: opening .5s ease-in forwards;
+    display: grid;
+}
+
+
+nav.open>div.contact>ol>li {
+    height: 90px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+nav.open>div.contact>ol>li.resume>h1 {
+    color: var(--dark-blue);
+    grid-area: 1 / 2 / span 2 / span 1;
+    align-self: center;
+}
+
+nav.open>div.contact>ol>li>img {
+    height: 50px;
+    width: auto;
+    grid-area: 1 / 1 / span 2 / span 1;
+    align-self: center;
+    justify-self: center;
+}
+
+nav.open>div.contact>ol>li>img.email {
+    height: 40px;
+}
+
+nav.open>div.contact>ol>li>h1 {
+    grid-area: 1 / 2 / span 1 / span 1;
+    position: relative;
+    margin: 0;
+    font-size: 1rem;
+    align-self: center;
+}
+
+nav.open>div.contact>ol>li>a {
+    color: var(--dark-blue);
+    grid-area: 2 / 2 / span 1 / span 1;
+    font-size: 0.8rem;
+    font-weight: 100;
+    align-self: flex-start;
+}
+
+/*ANIMATIONS*/
+@keyframes opening {
+    0% {
+        transform: translateY(-40vh)
+    }
+
+    100% {
+        transform: translateY(0vh)
+    }
+}
+
+@keyframes colorin {
+    100% {
+        background: rgb(255, 255, 255, 0.2);
+    }
+
+    0% {
+        background: rgb(255, 255, 255, 0.0);
+    }
+}
+
+@keyfremes opening {
+    100% {
+        transform: translateX(0)
+    }
+
+    0% {
+        transform: translateX(-400px)
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 899px) {
+    nav.open>div.contact>ol {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100vw;
+        padding-left: 1rem;
+    }
+
+    nav.open>div.contact>ol>li.resume {
+        width: 80%;
+        padding: 0 12rem;
+    }
+
+    nav.open>div.contact>ol>li {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    nav {
+        display: flex;
+        width: 100vw;
+        height: 4rem
+    }
+
+    nav>div.burger {
+        display: none;
+    }
+
+
+    nav>ul {
+        list-style: none;
+        color: white;
+        justify-content:flex-end;
+        display: flex;
+        padding-right: 2rem;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left:0
+    }
+
+    nav>ul>li {
+        width: 250px;
+        text-align: center;
+    }
+
+    nav>ul>li.contacttitle {
+        background-color: white;
+        color: var(--dark-blue);
+        border-radius: 2rem;
+        padding-top: 5rem;
+        margin-top: -4.8rem;
+        padding-bottom: 1rem;
+        z-index: 10;
+        align-self: flex-end;
+        margin-right: 4rem;
+    }
+    nav.open{
+        height: auto;
+        background-color:  rgb(255, 255, 255, 0.0);
+    }
+    nav.open>ul{
+        list-style: none;
+        color: white;
+        justify-content:flex-end;
+        display: flex;
+        padding-right: 0rem;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left:0;
+        background-color: var(--dark-blue)
+    }
+    nav.open>ul>li{
+        width: 250px;
+        text-align: center;
+        padding: 1rem 0 1rem 0 ;
+    }
+    nav.open > ul > li > a{
+        border:none;
+        font-weight: 300;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    nav.open>ul>li.contacttitle{
+        display: block;
+        background-color: white;
+        color: var(--dark-blue);
+        border-radius: 0rem;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        z-index: 20;
+       width: 250px;
+        /* position: absolute;
+        right:4rem; */
+        align-self: flex-end;
+        margin-right: 2rem;
+
+    }
+
+    nav.open>div.contact{
+        position: absolute;
+        right: 2rem;
+        top: 0;
+        width: 250px;
+      
+    }
+    nav.open>div.contact>ol {
+        width: 250px;
+        position: absolute;
+        right: 0rem;
+        top: 0rem;
+        padding: 3rem 0 1rem 0 ;
+        border-radius: 0 0 2rem 2rem;
+    }
+    nav.open > div.contact>ol>li{
+        width: 90%;
+        height: 60px;
+        padding: 0 1rem 1rem 1rem;
+        position: relative;
+    }
+    nav.open > div.contact>ol>li >a{
+        font-size: 0.6rem
+    }
+}

@@ -20,6 +20,7 @@ html {
 main{
     display: flex;
     flex-direction: column;
+    margin-top: 4rem;
 }
 /* .open>div.contact>ol {
     width: 123vw;
@@ -33,17 +34,18 @@ main{
     right: 5px;
     text-align:right;
     background-color: var(--dark-blue);
-    z-index: 4;
+    z-index: 10;
+    width: 100vw;
 }
 .logofilters > h1{
     font-size: 2.25rem;
     margin: 0;
     margin-right: 5px;
     padding: .5rem;
-    width: 100vw;
+    width: auto;
 }
 .information{
-    padding: 1rem;
+    padding: 0 3rem 3rem 3rem;
     max-width: 600px;
     margin-top: 4rem
 }
@@ -61,8 +63,10 @@ main{
     flex-direction: column;
     justify-content: space-between;
     max-width: 500px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 4rem;
 }
 .images > .big{
     width: 100%;
@@ -72,19 +76,23 @@ main{
 .images > .smalercontainer {
     display: flex;
     cursor: pointer;
+
 }
 .images > .smalercontainer > img{
     height: 5rem;
     width:auto;
+    margin-top: 5px;
     margin-right: 5px;
+    overflow-x: scroll;
 }
-@media only screen and (min-width:950px){
+@media only screen and (min-width:900px){
     .content{
         display: flex;
         flex-direction:row-reverse;
         width: 96vw;
         padding: 2rem;
         justify-content: space-around;
+        margin-top: 4rem;
     }
     .content > div.images{
         height: auto;
@@ -92,13 +100,13 @@ main{
     }
     
     .logofilters{
-        width:100vw;
+        width:40vw;
         position: fixed;
-        top: 0;
+        top: 10px;
         left: 3rem;
         text-align:left;
+        z-index: 40;   
         background-color: var(--dark-blue);
-        z-index: 4;   
     }
     .logofilters > div > ol{
         display: flex;

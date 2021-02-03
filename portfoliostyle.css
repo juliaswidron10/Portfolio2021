@@ -20,6 +20,7 @@ html {
 main{
     display: flex;
     flex-direction: column;
+    margin-top: 3rem;
 }
 .logofilters{
     width:100vw;
@@ -121,6 +122,7 @@ footer > h1{
         text-align:left;
         z-index: 40;   
         background-color: var(--dark-blue);
+
     }
     .logofilters > h1{
         font-size: 2rem;
@@ -139,7 +141,7 @@ footer > h1{
     section.projects{
         top: 4rem;
         width: 95vw;
-        margin: 0 0;
+        margin: 4rem 0;
     }
     main{
         margin:0 2rem;

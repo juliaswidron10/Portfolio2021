@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Cherry Pop",
+        "photo": "cherry_pop",
+        "description":"description of the project lalal",
+        "link": "www.something.com",
+        "technologies": [ "CSS" , "HTML", "JavaScript", "Something", "Something else" ]
+    },
+    {
+        "name": "Plantacja Wyobrazni",
+        "photo": "plantacja_wyobrazni",
+        "description":"description of the project sralalalalalal",
+        "link": "www.something.com",
+        "technologies": [ "CSS" , "HTML", "JavaScript", "Something" ]
+    }
+]

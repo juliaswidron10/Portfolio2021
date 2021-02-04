@@ -25,17 +25,17 @@ const filters = document.querySelector('#filters');
 const filtersbutton = document.querySelector('#filtersbutton');
 let filtersVisible = false;
 
-filtersbutton.addEventListener('click',toggleFilters);
+// filtersbutton.addEventListener('click',toggleFilters);
 
-function toggleFilters(){
-    if(filtersVisible === false){
-    filters.classList.remove('hide');
-    filtersVisible = true;
-    filtersbutton.textContent = 'Hide filters'
-    }else{
-    filters.classList.add('hide');
-    filtersVisible = false;
-    filtersbutton.textContent = 'Show filters'
-    }
-}
+// function toggleFilters(){
+//     if(filtersVisible === false){
+//     filters.classList.remove('hide');
+//     filtersVisible = true;
+//     filtersbutton.textContent = 'Hide filters'
+//     }else{
+//     filters.classList.add('hide');
+//     filtersVisible = false;
+//     filtersbutton.textContent = 'Show filters'
+//     }
+// }
 

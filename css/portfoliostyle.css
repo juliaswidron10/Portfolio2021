@@ -91,6 +91,9 @@ section.projects{
     width: 355px;
     height: 205px;
 }
+.projects > div.project > a > img{
+    object-fit: cover;
+}
 .projects > div.project > a:hover > div{
     position: relative;
     display: inline-block;

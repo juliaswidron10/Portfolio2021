@@ -2,15 +2,45 @@
     {
         "name": "Cherry Pop",
         "photo": "cherry_pop",
-        "description":"description of the project lalal",
-        "link": "www.something.com",
-        "technologies": [ "CSS" , "HTML", "JavaScript", "Something", "Something else" ]
+        "description":"Digital presence project, collaborated with local start-up “cherry pop” as a part of school assignment. I worked in a group of three where during three weeks we worked on designing, testing and developing their digital presence which included developing their website. My part of the project was mainly focused on working on the website. I designed, tested and coded a significant part of the website, created animations on the landing page and optimized the page to be accessible and useful. This project was very special because we had the opportunity to work to support a great cause that’s a safe and accessible sex education for teenagers. Project came with many challenges from working in a group and managing our busy schedules to fit enough time for research and execution of the project. We also documented the whole process of this project to create a report for school and be able to present the project for the start-up.",
+        "link": "https://juliaswidron10.github.io/cherry_pop/product.html",
+        "technologies": [ "JavaScript", "GSAP", "JSON", "GIT", "HTML/CSS", "Wordpress", "AJAX", "SEO", "Web accessibility", "Prototype", "Web Design", "UX/UI design", "Graphic Design", "Adobe XD", "Photoshop", "Illustrator", "Responsive design"
+        ]
     },
     {
         "name": "Plantacja Wyobrazni",
         "photo": "plantacja_wyobrazni",
-        "description":"description of the project sralalalalalal",
-        "link": "www.something.com",
-        "technologies": [ "CSS" , "HTML", "JavaScript", "Something" ]
+        "description":"Multimedia design project made for Polish Education Organization “Plantacja Wyobraźni” during this project I helped the company create an interactive board game based on the popular monopoly. Our goal was to create monopoly where instead of money you’d exchange creativity points. During the game players are introduced to great polish feminists of the 20th century. Game included cards with OR codes that took you to the website developed specially for the game where you could read more about the characters in the game and their achievements as well as get instruction of the game and learn more about the project. I designed the game and all the elements needed, as well as designed and developed the website.",
+        "link": "",
+        "technologies": [ "JavaScript", "HTML/CSS", "Photoshop" , "Indesign", "Illustrator", "Graphic Design", "Web Design"]
+    },
+    {
+        "name": "Bucket’s New Friend",
+        "photo": "buckets_new_friend",
+        "description":"Simple browser based game, created as a school assignment. In the game you’re animals owner and you’re deciding to adopt another one, in the game play you’re collecting hearts to make animals like each other more. I created the game independently, working on graphics, animations, and coding. I developed the project using HTML/CSS and vanilla JavaScript.",
+        "link": "https://juliaswidron10.github.io/BrowserGame/game.html",
+        "technologies": ["Javascript", "HTML/CSS", "Adobe Illustrator", "GitHub", "Adobe XD", "UI/UX design"]
+    },
+    {
+        "name": "Green(ish)",
+        "photo": "greenish",
+        "description":"Digital Campaign created for Danmarks Naturfredningsforening. In a group of 4 we created and developed a digital campaign with website design and SoMe elements. Our campaign goal was to encourage young adults and teenagers to live more environmentally friendly. We decided to create a campaign that focused on highlighting that even if you can’t be 100% green and live zero waste, you should try and live as green as possible, and we created a green(ish) campaign. We developed visual elements of the campaign like logo and identity, and a website linked to the campaign that would help gather resources and information on how to join and be a part of the green(ish) movement.",
+        "link": "",
+        "technologies": ["Responsive Web Development",  "Digital Marketing", "SoMe", "Github", "Graphic Design", "Logo Design", "UI/UX design", "Testing" , "Javascript" ]
+    },
+    {
+        "name": "Give a shit",
+        "photo": "give_a_shit",
+        "description":"Parody website developed for school project. I worked in a group of three, we decided to develop a website where the users could go to review places based on how bad they were. We created designs for the website and developed it. We wanted the project to be fun and positive apart from the ranting purpose. I created illustrations to implement them on the website, worked with json data to display it on the page and create sub-pages for various destinations. We created a scoring system to rate places and developed SoMe presence.",
+        "link": "https://juliaswidron10.github.io/GiveAShit/Explore.html",
+        "technologies": ["Javascript", "JSON", "Responsive Design", "HTML", "CSS", "Github", "SoMe", "adobe XD", "photoshop", "illustrator", "Digital Marketing", "Testing", "Prototyping" ]
+    },
+    {
+        "name": "Design Projects",
+        "photo": "designs",
+        "description":"My background before I started web development is based in design. I have a lot of experience working with many types of design from traditional illustrating to digital vector design, you can learn more about my designs by going to my design portfolio. I especially enjoy working with vector graphics and communication design. I think that communication design is very important and the way we communicate is crucial to make sure we communicate the message we wanted. In my free time I enjoy working on poster design and illustrations for topics I care about. During protests in Poland, because I couldn’t be there I created posters to promote protests in Denmark, where I lived during protests, and raise awareness abroad about what was happening in Poland. I worked on an app design project where I worked with a start-up based in Switzerland to create an app for reading, targeted for kids. I also worked as intern for a international company in New York where I created vector designs.",
+        "link": " https://juli71e4.myportfolio.com",
+        "technologies": ["vector design", "Adobe Creative cloud", "typography", "Photoshop", "Illustrator","XD", "UI/UX design", "traditional art" ]
     }
+
 ]

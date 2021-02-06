@@ -1,0 +1,143 @@
+
+
+/*NAVIGATION OPENED*/
+
+/* nav.open {
+    width: 100vw;
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: - 2rem;
+    padding-top: 2rem;
+}
+
+nav.open>div.burger {
+    justify-items: flex-end;
+}
+
+nav.open>div.burger>div {
+    background-color: var(--dark-blue);
+    transform: rotate(45deg);
+}
+
+nav.open>div.burger>.burger_button {
+    transform: rotate(-45deg);
+    top: -15px;
+    position: relative;
+} */
+
+/* nav.open>ul {
+    display: block;
+    color: var(--dark-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    animation: opening ease-in forward 0.4s;
+    z-index: 5;
+} */
+/* 
+nav.open>ul>li {
+    padding-top: 2rem;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+} */
+/* 
+nav.open>ul>li>a {
+    width: 10rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 2rem;
+    border: solid 1px var(--white);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    align-self: center;
+
+} */
+/* 
+nav.open>ul>li>a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav.open>ul>li>a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+nav.open>ul>li.contacttitle {
+    display: none;
+}
+
+nav.open>div.contact {
+    display: block;
+    max-width: 350px;
+    width: 100vw;
+    color: var(--dark-blue)
+} */
+
+
+nav.open>div.contact>ol {
+    background-color: white;
+    list-style: none;
+    position: absolute;
+    top: -20px;
+    left: 0px;
+    width: 100vw;
+    padding: 6rem 2rem 2rem 2rem;
+    animation: opening .5s ease-in forwards;
+    display: grid;
+}
+
+
+nav.open>div.contact>ol>li {
+    height: 90px;
+    width: 90vw;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+nav.open>div.contact>ol>li.resume>h1 {
+    color: var(--dark-blue);
+    grid-area: 1 / 2 / span 2 / span 1;
+    align-self: center;
+}
+
+nav.open>div.contact>ol>li>img {
+    height: 50px;
+    width: auto;
+    grid-area: 1 / 1 / span 2 / span 1;
+    align-self: center;
+    justify-self: center;
+}
+
+nav.open>div.contact>ol>li>img.email {
+    height: 40px;
+}
+
+nav.open>div.contact>ol>li>h1 {
+    grid-area: 1 / 2 / span 1 / span 1;
+    position: relative;
+    margin: 0;
+    font-size: 1rem;
+    align-self: center;
+}
+
+nav.open>div.contact>ol>li>a {
+    color: var(--dark-blue);
+    grid-area: 2 / 2 / span 1 / span 1;
+    font-size: 0.8rem;
+    font-weight: 100;
+    align-self: flex-start;
+}
+
